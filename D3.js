@@ -237,8 +237,8 @@ console.log("I robot di questo equipaggio sono ", robots);
 console.log(starWarsCharacters);
 
 for (let j = 0; j < femaleCharacters.length; j++) {
-  for (let i = 0; i < starWarsCharacters.length; i++) {
-    if (starWarsCharacters[i].name === femaleCharacters[j].name) {
+  for (let i = 0; i < charactersNames.length; i++) {
+    if (charactersNames[i] === femaleCharacters[j].name) {
       starWarsCharacters.splice(i, 1);
     }
   }
